@@ -56,3 +56,37 @@ button:hover {
   padding: 20px;
   background-color: #e5e7eb;
 }
+.toggle-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #1e3a8a;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  background-color: #e5e7eb;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.dark-mode .header {
+  background-color: #020617;
+}
+
+.dark-mode .card {
+  background-color: #1f2933;
+  color: #f9fafb;
+}
+
+.dark-mode .footer {
+  background-color: #020617;
+  color: #9ca3af;
+}

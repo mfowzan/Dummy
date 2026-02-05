@@ -10,3 +10,6 @@ function showMessage() {
     output.style.color = "green";
   }
 }
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+}
